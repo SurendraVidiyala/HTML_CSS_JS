@@ -1,3 +1,4 @@
+/*
 h1 {
     color: purple
 }
@@ -8,4 +9,36 @@ p {
 
 h2 {
     color: green
+} */
+
+#rainbowColors {
+    background: gray
+}
+
+#red {
+    background: red
+}
+
+#orange {
+    background: orange
+}
+
+#yellow {
+    background: yellow
+}
+
+#green {
+    background: green
+}
+
+#blue {
+    background: blue
+}
+
+#indigo {
+    background: indigo
+}
+
+#violet {
+    background: violet
 }
