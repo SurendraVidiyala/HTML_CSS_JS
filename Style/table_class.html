@@ -1,0 +1,70 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Tables</title>
+    <style>
+        table,
+        td,
+        th {
+            border: 1px solid green;
+            text-align: center;
+            width: 50%;
+            padding: 10px
+        }
+        
+        table {
+            background-color: cornsilk
+        }
+        
+        .profit {
+            background-color: lightblue;
+            text-align: left
+        }
+        
+        .zero {
+            text-align: center;
+            background-color: olive
+        }
+        
+        .loss {
+            text-align: right;
+            background-color: orange
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Product</th>
+                <th>Income</th>
+                <th>Cost</th>
+                <th>Difference</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Laptops</td>
+                <td>$300</td>
+                <td>$100</td>
+                <td class="profit">$200</td>
+            </tr>
+            <tr>
+                <td>Stationary</td>
+                <td>$150</td>
+                <td>$50</td>
+                <td class="zero">$0</td>
+            </tr>
+            <tr>
+                <td>Chairs</td>
+                <td>$50</td>
+                <td>$300</td>
+                <td class="loss">$250</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
