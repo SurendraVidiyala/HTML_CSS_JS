@@ -1,7 +1,37 @@
-fieldset{background:lightyellow;
-border:10px solid yellow;
-margin-bottom:10px;
-width:720px
-}
-.range1{background:red;text-align:center;width:80px;display:inline-block}
-.range2{background:purple;text-align:center;width:80px;dispaly:inline-block}
+fieldset {
+            background: lightyellow;
+            border: 10px solid yellow;
+            margin-bottom: 10px;
+            width: 720px
+        }
+        
+        .range1 {
+            width: 80px;
+            display: inline-block;
+            ;
+            background: red;
+            text-align: center;
+        }
+        
+        .range2 {
+            width: 80px;
+            display: inline-block;
+            ;
+            background: purple;
+            text-align: center;
+        }
+        
+        label {
+            width: 180px;
+            display: inline-block;
+            text-align: right;
+            text-align: top
+        }
+        
+        label:hover {
+            font-size: 20px
+        }
+        
+        input:hover {
+            font-size: 20px
+        }
