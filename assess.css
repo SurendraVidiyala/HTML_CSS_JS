@@ -1,0 +1,7 @@
+fieldset{background:lightyellow;
+border:10px solid yellow;
+margin-bottom:10px;
+width:720px
+}
+.range1{background:red;text-align:center;width:80px;display:inline-block}
+.range2{background:purple;text-align:center;width:80px;dispaly:inline-block}

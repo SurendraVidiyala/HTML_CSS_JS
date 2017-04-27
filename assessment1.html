@@ -1,0 +1,74 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>Dating Website</title>
+    <link href="assess.css" rel="stylesheet" type="text/css">
+    <link href="datingWebsite.js" rel="javascript" type="text/script">
+</head>
+
+<body>
+    <form>
+        <h1>Please Enter Your Details For Our Dating Website!</h1>
+        <fieldset>
+            <legend>Your Face</legend>
+            <label for="avatar">Your Image:</label>
+            <input type="file" id="avatar" name="avatar" required><br>
+            <label for="preview">Image Preview:</label>
+            <img id="preview" />
+        </fieldset><br>
+        <fieldset>
+            <legend>Your General Details</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="yourName" placeholder="Your full Name" autofocus><br>
+            <label for="gender">Gender:</label>
+            <input type="radio" name="gender" required>Male
+            <input type="radio" name="gender" required>Female<br>
+            <label for="age">Age:</label>
+            <input type="number" id="age" min="0" max="99" step="1" name="age" value="18" required><br>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="DOB" value="dd/mm/yyy" required><br>
+            <label for="color">Your Favourite color:</label>
+            <input type="color" id="color" name="favColor"><br>
+            <label for="cnty">Which Country:</label>
+            <select id="cnty" name="list">
+                <option value="no selection"></option>
+               <option value="usa">United States of America</option>
+               <option value="aus">Australia</option>
+               <option value="uk">United Kingdom</option>
+               <option value="can">Canada</option>
+               <option value="ind">India</option>
+           </select>
+        </fieldset><br>
+        <fieldset>
+            <legend>Your Indicators</legend>
+            <label for="height">Height:</label>
+            <span class="range1"> Short</span>
+            <input type="range" id="height" min="0" max="100" step="3" value="50">
+            <span class="range2">Tall</span><br>
+            <label for="sal">Salary:</label>
+            <span class="range1">Poor</span>
+            <input type="range" id="sal" min="0" max="100" step="3" value="50">
+            <span class="range2">Rich</span>
+        </fieldset><br>
+        <fieldset>
+            <legend>Your contact Information</legend>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="e-mail" required><br>
+            <label for="mob">Mobile:</label>
+            <input type="tel" id="mob" name="phonenumber" required><br>
+            <label for="add">Address</label>
+            <textarea id="add" width="360px" height="50px"></textarea><br>
+            <label for="contact">Method to Contact you:</label>
+            <input type="checkbox" name="contact" id="1">Email
+            <input type="checkbox" name="contact" id="2">Whatsapp
+            <input type="checkbox" name="contact" id="3">In-app chat
+        </fieldset><br><br>
+        <input type="submit" value="Submit">
+    </form>
+
+    <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+
+</body>
+
+</html>
