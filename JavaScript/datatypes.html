@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p id="demo"></p>
+    <p id="str"></p>
+    <p id="quote"></p>
+    <p id="decimals"></p>
+    <script>
+        var x = 16 + 4 + "Volvo";
+        var y = "Volvo" + 16 + 4;
+        var carName1 = "Volvo XC60";
+        var carName2 = 'Volvo XC60';
+        var answer1 = "It's alright";
+        var answer2 = "He is called 'Johnny'";
+        var answer3 = 'He is called "Johnny"';
+        var a1 = 34.00;
+        var a2 = 34;
+        var b = 123e5;
+        var c = 123e-5;
+        /* JavaScript treats 16 and 4 as numbers, until it reaches "Volvo".
+
+In the second example, since the first operand is a string, all operands are treated as strings. */
+        document.getElementById("demo").innerHTML = x;
+        document.getElementById("str").innerHTML = y;
+        document.getElementById("demo").innerHTML =
+            carName1 + "<br>" +
+            carName2 + "<br>" +
+            answer1 + "<br>" +
+            answer2 + "<br>" +
+            answer3;
+        document.getElementById("decimals").innerHTML = a1 + "<br>" +
+            a2 + "<br>" +
+            b + "<br>" +
+            c + "<br>";
+    </script>
+
+</body>
+
+</html>
