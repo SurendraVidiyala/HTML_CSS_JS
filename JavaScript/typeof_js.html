@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--
+<html>
+
+<body>
+
+    <h2>JavaScript typeof</h2>
+    <p>The typeof operator returns the type of a variable or an expression.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("demo").innerHTML =
+            typeof "" + "<br>" +
+            typeof "John" + "<br>" +
+            typeof "John Doe";
+    </script>
+</body>
+
+</html>
+-->
+
+<html>
+
+<body>
+
+    <h2>JavaScript typeof</h2>
+    <p>The typeof operator returns the type of a variable or an expression.</p>
+
+    <p id="demo"></p>
+    <p id="typeof"></p>
+    <p id="typeobject"></p>
+    <p id="undefined"></p>
+    <p id="car"></p>
+    <script>
+        document.getElementById("demo").innerHTML =
+            typeof 0 + "<br>" +
+            typeof 314 + "<br>" +
+            typeof 3.14 + "<br>" +
+            typeof(3) + "<br>" +
+            typeof(3 + 4);
+        document.getElementById("typeof").innerHTML =
+            typeof "john" + "<br>" +
+            typeof 3.14 + "<br>" +
+            typeof true + "<br>" +
+            typeof false;
+        document.getElementById("typeobject").innerHTML =
+            typeof [1, 2, 3, 4] + "<br>" +
+            typeof {
+                name: 'john',
+                age: 34
+            } + "<br>" +
+            typeof
+
+        function myFunc() {};
+        var person;
+        var car = "";
+        document.getElementById("undefined").innerHTML =
+            person + "<br>" + typeof person;
+        document.getElementById("car").innerHTML = "The Value is, the typeof" + " " + typeof car;
+    </script>
+
+</body>
+
+</html>
