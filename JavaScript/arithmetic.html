@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+
+    <p>A typical arithmetic operation takes two numbers and produces a new number.</p>
+
+    <p id="demo"></p>
+    <p id="val"></p>
+    <p id="zee"></p>
+    <p id="que"></p>
+    <p id="inc"></p>
+    <p id="dec"></p>
+    <p id="prec"></p>
+    <p id="precbrac"></p>
+    <script>
+        var x = 100 + 50;
+        var a = 20;
+        var b = 30;
+        var c = a + b;
+        var z = (100 + 50) * c;
+        var Q = c % a;
+        var num = 5;
+        num++;
+        var sum = num;
+        var number = 20;
+        number--;
+        var value = number;
+        document.getElementById("dec").innerHTML = "The decrement value" + " " + value;
+        document.getElementById("inc").innerHTML = "The increment value" + " " + sum;
+        document.getElementById("demo").innerHTML = x;
+        document.getElementById("val").innerHTML = c;
+        document.getElementById("que").innerHTML = "The modulus operator" + Q;
+        document.getElementById("zee").innerHTML = z;
+        document.getElementById("prec").innerHTML = "Multiplication has the higher precedence over addition" + (100 + 50 * 3);
+        document.getElementById("precbrac").innerHTML = "Brackets has higher precedence" + (100 + 50) * 3;
+    </script>
+
+</body>
+
+</html>
