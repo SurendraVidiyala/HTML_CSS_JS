@@ -1,0 +1,30 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>JavaScript Arrays</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <p id="arr1"></p>
+    <p id="arr2"></p>
+    <p id="objects"></p>
+    <script>
+        var cars = ["BMW", "Volvo", "Audi", "Sable"];
+        var person = {
+            firstName: "john",
+            lasName: "Doe",
+            age: 25,
+            eyeColor: "blue"
+        };
+        document.getElementById("demo").innerHTML = cars[2];
+        document.getElementById("arr1").innerHTML = cars[3];
+        document.getElementById("arr2").innerHTML = cars[0];
+        document.getElementById("objects").innerHTML = person.firstName +
+            person.lasName + " " + "is" + " " + person.age +
+            " " + "years old.";
+    </script>
+</body>
+
+</html>
