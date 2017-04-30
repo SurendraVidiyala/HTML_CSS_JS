@@ -1,0 +1,26 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>While loops</title>
+</head>
+
+<body>
+
+    <script>
+        var response, finished;
+        finished = false;
+        alert("Surya ia a pretty name!");
+        /* while (!finished) {
+             response = prompt("Do you agree?");
+             if (response.indexOf("y") == 0)
+                 finished = true;  } */
+        do {
+            response = prompt("Do you agree?");
+            if (response.indexOf("y") == 0)
+                finished = true;
+        } while (!finished);
+    </script>
+</body>
+
+</html>
