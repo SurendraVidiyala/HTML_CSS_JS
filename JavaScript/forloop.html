@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>forloop example</title>
+</head>
+
+<body>
+    <script>
+        var continents = ["America", "India", "Australia", "Singapore", "UnitedKingdom"];
+        var response, count = 0,
+            index;
+        for (index = 0; index < continents.length; index++) {
+            response = confirm("Have you been to this Country " + continents[index]);
+            if (response) count++;
+        }
+        alert("you have been to" + count + "Continents ");
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>forloop example</title>
+</head>
+
+<body>
+    <!--
+    <script>
+        var continents = ["America", "India", "Australia", "Singapore", "UnitedKingdom"];
+        var response, count = 0,
+            index;
+        for (index in continents) {
+            response = confirm("Have you been to this Country " + continents[index]);
+            if (response) count++;
+        }
+        alert("you have been to" + count + "Continents ");
+    </script>
+    -->
+    <script>
+        var response, count = 0;
+        // this is an object called onePerson
+        var onePerson = {
+            initials: "DR",
+            age: 40,
+            job: "Professor"
+        };
+
+        for (var property in onePerson) {
+            alert(property + "=" + onePerson[property]);
+        }
+    </script>
+</body>
+
+</html>
