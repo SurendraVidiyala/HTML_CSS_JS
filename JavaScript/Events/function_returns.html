@@ -1,0 +1,24 @@
+<!Doctype html>
+<html>
+
+<head>
+    <title>More on functions</title>
+</head>
+
+<body>
+    <script>
+        function counter() {
+            var count = 0;
+            return function() {
+                count++;
+                alert(count);
+            }
+        }
+        var count = counter();
+        count();
+        count();
+        count();
+    </script>
+</body>
+
+</html>
